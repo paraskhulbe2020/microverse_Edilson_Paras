@@ -9,7 +9,7 @@ body {
 }
 
 .section-h {
-  height: 30vh;
+  min-height: 30vh;
 }
 
 .header {
@@ -55,7 +55,9 @@ body {
 }
 
 .Product_Container {
-  border: 1px solid;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
 }
 
 /*** -------------- From container ***/
@@ -96,6 +98,13 @@ form #submit {
   color: #fff;
 }
 
+/** ***/
+.video-content {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+
 /**** product_prices  *****/
 
 #product_prices {
@@ -110,6 +119,7 @@ form #submit {
   border: 1px solid #e2dbdb;
   border-radius: 4px;
   background: #fff;
+  margin: 16px;
 }
 
 .card .card-header {
