@@ -48,6 +48,10 @@ body {
   transition: all 4ms;
 }
 
+.Product_Container {
+  border: 1px solid;
+}
+
 /*** -------------- From container ***/
 .form-container {
   display: flex;
