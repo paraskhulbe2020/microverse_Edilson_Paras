@@ -107,13 +107,26 @@ form #submit {
 
 .card {
   width: 220px;
-  border: 1px solid;
+  border: 1px solid #e2dbdb;
   border-radius: 4px;
   background: #fff;
 }
 
 .card .card-header {
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #e2dbdb;
   padding: 8px;
   text-align: center;
+  font-weight: 600;
+}
+
+.card .card-content {
+  text-align: center;
+}
+.card .card-content .price {
+  font-size: 18px;
+}
+.card .card-content ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
