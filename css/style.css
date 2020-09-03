@@ -49,8 +49,25 @@ body {
   transition: all 4ms;
 }
 
+<<<<<<< HEAD
 .Product_Container{
   border: 1px solid;
   
 
+=======
+/*** -------------- From container ***/
+.form-container {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+
+.form-container form {
+  margin: auto;
+}
+
+.form-container form input {
+  border: 1px solid #f4f4f4;
+  padding: 8px;
+>>>>>>> 41f8777ae14857fb613d229b1c88312d7fef1b38
 }
