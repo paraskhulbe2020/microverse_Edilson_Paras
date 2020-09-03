@@ -32,7 +32,7 @@ body {
   display: flex;
 }
 
-.nav-link ul li a {
+.nav-bar ul li a {
   display: flex;
   flex-direction: row;
   padding: 12px;
