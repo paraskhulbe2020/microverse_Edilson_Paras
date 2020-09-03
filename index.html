@@ -14,9 +14,8 @@
 
   <div class="">
     <header class="header" id="header">
-      <img src="./" alt="company_logo" id="header-img">
-      <nav id="nav-bar" class="nav-bar">
-        <ul class="menu">
+      <nav id="nav-link">
+        <ul>
           <li>
             <a href="#products" class="nav-link">Products</a>
           </li>
@@ -28,6 +27,7 @@
           </li>
         </ul>
       </nav>
+      <img src="./" alt="company_logo" id="header-img">
     </header>
 
     <section id="products" class="section-h">
@@ -47,8 +47,14 @@
     </section>
 
   </div>
-  <form id='form'>
-    <input name="email" id="email" type="email" placeholder="Enter your email address" required />
+  <form id='form' action="https://www.freecodecamp.com/email-submit">
+    <input
+    name="email"
+    id="email"
+    type="email"
+    placeholder="Enter your email address"
+    required
+    />
     <input id="submit" type="submit" value="Start Exploring" class="button" />
   </form>
 </body>
