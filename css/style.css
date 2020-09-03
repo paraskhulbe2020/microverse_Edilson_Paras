@@ -80,6 +80,8 @@ form .title-form {
 form .inputs {
   width: 70%;
   margin: auto;
+  justify-content: center;
+  display: flex;
 }
 
 form #submit {
