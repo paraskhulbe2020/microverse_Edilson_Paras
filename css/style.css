@@ -95,3 +95,25 @@ form #submit {
   background: #6f23ff;
   color: #fff;
 }
+
+/**** product_prices  *****/
+
+#product_prices {
+  margin: 100px auto;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 220px;
+  border: 1px solid;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.card .card-header {
+  border-bottom: 1px solid;
+  padding: 8px;
+  text-align: center;
+}
