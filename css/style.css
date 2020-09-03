@@ -48,3 +48,19 @@ body {
   font-weight: 500;
   transition: all 4ms;
 }
+
+/*** -------------- From container ***/
+.form-container {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+
+.form-container form {
+  margin: auto;
+}
+
+.form-container form input {
+  border: 1px solid #f4f4f4;
+  padding: 8px;
+}
