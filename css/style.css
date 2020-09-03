@@ -19,6 +19,12 @@ body {
   z-index: 5;
   background: #fff;
   border-bottom: 1px solid #ccc;
+  height: 54;
+}
+
+#header-img {
+  width: 200px;
+  height: 54;
 }
 .nav-bar {
   width: 100%;
